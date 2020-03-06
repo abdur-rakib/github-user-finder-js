@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/subscribe-bg.png');
+    background-size: contain;
+
+}
+.navbar {
+    border-radius: 0px;
+
+}
+
+.navbar-brand {
+    margin: 0 150px;
+    font-size: 30px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.search-container {
+    height: 85vh;
+}
+
+.container .card {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
