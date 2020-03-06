@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-brand {
-    margin: 0 150px;
+    margin: 0 auto;
     font-size: 30px;
     padding: 0 10px;
     font-weight: bold;
