@@ -11,14 +11,15 @@ searchUser.addEventListener("keyup", (e) => {
     const searchText = e.target.value;
     if (searchText !== "") {
         github.getUser(searchText).then(data => {
-            if(data.profile.message === "not found") {
+            if(data.profile.message === "Not Found") {
                 // Alert
-               console.log("Not Found");
+               ui.showAlert();
                
             } else {
                 // Show Profile
                 ui.showProfile(data.profile);
-                console.log(data.profile);
+                console.log(data.profile)
+                ui.showRepos(data.repos);
                 
             }
         });

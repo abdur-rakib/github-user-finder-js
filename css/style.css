@@ -19,11 +19,15 @@ body {
 }
 
 .search-container {
-    height: 85vh;
+    min-height: 87vh;
 }
 
 .container .card {
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
     padding: 20px;
+}
+.my-alert {
+    width: 80%;
+    margin: 10px auto;
 }
