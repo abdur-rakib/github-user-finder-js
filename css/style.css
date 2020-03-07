@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url('../img/subscribe-bg.png');
-    background-size: contain;
+    background-size: cover;
 
 }
 .navbar {
@@ -28,6 +28,22 @@ body {
     padding: 20px;
 }
 .my-alert {
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
+}
+
+.form-control {
+    border: 1px solid slateblue;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid slateblue;
+
+}
+
+.card-body {
+    border: 1px solid slateblue;
+}
+.card-body a{
+    color: black;
 }

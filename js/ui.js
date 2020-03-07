@@ -65,7 +65,7 @@ class UI {
     clearAlert() {
         const alert = document.getElementsByClassName("my-alert");
         if (alert) {
-            alert.remove();
+            // alert.remove();
         }
     }
     showRepos(repos) {
